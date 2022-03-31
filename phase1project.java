@@ -33,7 +33,7 @@ public class phase1project {
 			switch(module)
 		   {
 		   case 55:
-			   String path1="D:\\mywork";
+			   String path1="D:\\mywork\\";
 				Scanner m2=new Scanner(System.in);
 
 				ArrayList<String> al=new ArrayList<>();
@@ -60,7 +60,7 @@ public class phase1project {
 				}
 		 			break;
 		 		case 66:
-		 			String path2="D:\\mywork";
+		 			String path2="D:\\mywork\\";
 		 			Scanner m3=new Scanner(System.in);
 		 			System.out.println("enter the file name to be deleted");
 		 			String filname2=m3.next();
@@ -70,7 +70,7 @@ public class phase1project {
 		 			System.out.println("file deleted");
 		 			break;
            case 77:
-			   String path3="D:\\mywork";
+			   String path3="D:\\mywork\\";
 				File f2=new File(path3);
 				Scanner m4=new Scanner(System.in);
 				System.out.println("enter the file name to search");
